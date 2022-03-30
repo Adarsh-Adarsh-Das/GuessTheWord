@@ -3,7 +3,7 @@ function adduser()
     player1=document.getElementById("player1_name_input").value;
     player2=document.getElementById("player2_name_input").value;
 
-    localStorage.setItem("player1",player1);
-    localStorage.setItem("player2",player2);
+    localStorage.setItem("player1_name",player1);
+    localStorage.setItem("player2_name",player2);
     window.location.replace("game_page.html");
 }
